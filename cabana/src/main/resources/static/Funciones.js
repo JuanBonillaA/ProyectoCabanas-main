@@ -320,7 +320,7 @@ function registroMen(){
          let dataToSend = JSON.stringify(myData);
          $.ajax({
 
-             url:"http://130.162.34.139/api/Message/save",
+             url:"http://144.22.206.19/api/Message/save",
              type: "POST",
              data: myData,
              contentType: "application/JSON",
@@ -485,7 +485,7 @@ function actualizarCat(){
     let dataToSend = JSON.stringify(myData);
     $.ajax({
 
-        url:"http://130.162.34.139/api/Category/update",
+        url:"http://144.22.206.19/api/Category/update",
         type: "PUT",
         data: dataToSend,
         contentType:"application/JSON",
